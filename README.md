@@ -1,6 +1,13 @@
 # 清华日报与紫荆码填报
 
-学生 **每日健康和出行情况报告** + **紫荆码体温** 自动填报脚本。
+当前填报情况： [![Daily Report](../../actions/workflows/daily.yml/badge.svg?event=schedule)](../../actions/workflows/daily.yml)
+[![Zijing Code Report](../../actions/workflows/zijing_code.yml/badge.svg?event=schedule)](../../actions/workflows/zijing_code.yml)
+
+---
+
+## 简介
+
+**学生每日健康和出行情况报告** + **紫荆码体温** 自动填报脚本。
 
 整合自以下项目：
 
