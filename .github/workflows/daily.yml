@@ -1,10 +1,7 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
-name: TsinghuaDaily Report
+name: Daily Report
 
 on:
-  # 每天北京时间 08:52 整 (utc+8) 自动运行
+  # 每天北京时间 08:52  (utc+8) 打卡
   schedule:
     - cron: "52 0 * * *"
 
