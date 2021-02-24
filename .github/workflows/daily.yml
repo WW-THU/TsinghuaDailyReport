@@ -1,9 +1,9 @@
 name: Daily Report
 
 on:
-  # 每天北京时间 13:00  (utc+8) 打卡
+  # 每天北京时间 08:52  (utc+8) 打卡
   schedule:
-    - cron: "52 0 * * *"
+    - cron: "52 8 * * *"
 
 jobs:
   submit_report:
